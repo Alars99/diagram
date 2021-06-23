@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T06:34:54.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Cm2DgqfGDH0gtDEBDuom" version="14.7.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-23T14:07:27.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="eDXOxLkAO8ikNvD2DAfv" version="14.7.7" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Flowchart">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,72 @@
         </mxCell>
         <mxCell id="J65CbOhysvYxfeT4PARO-2" value="Thông báo đánh giá thành công" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="305" y="1460" width="190" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="New Flowchart" id="UrbNWAnscQkWn9HvLXW6">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-0" />
+        <mxCell id="hv37WCeCtudlQHdPEHXu-1" parent="hv37WCeCtudlQHdPEHXu-0" />
+        <mxCell id="hv37WCeCtudlQHdPEHXu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-3" target="hv37WCeCtudlQHdPEHXu-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-3" value="&lt;div&gt;&lt;span&gt;Nhấn tab &quot;Đơn Hàng&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Gồm có các tab nhỏ:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;(default)&quot;Order In Process&quot;: orderstatus=10400,&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&quot;Confirmed Order&quot;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;orderstatus=10401,&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;Waiting for Delivery&quot;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;orderstatus=10403,&lt;/span&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&quot;&lt;/span&gt;Order Processed&lt;span&gt;&quot;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;orderstatus=10404,&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;span&gt;&quot;&lt;/span&gt;Cancel Order&lt;span&gt;&quot;:&amp;nbsp;&lt;/span&gt;&lt;span&gt;orderstatus=10406.&lt;/span&gt;&lt;br&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="195" y="140" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-5" target="hv37WCeCtudlQHdPEHXu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-5" value="Bắt đầu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="350" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-7" target="hv37WCeCtudlQHdPEHXu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-7" value="Nhấn tab &quot;Order Processed&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-17" target="hv37WCeCtudlQHdPEHXu-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="600" />
+              <mxPoint x="400" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-10" value="OrderDetailScreen" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="340" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-12" target="hv37WCeCtudlQHdPEHXu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-12" value="Nhấn vào đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="340" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-14" target="hv37WCeCtudlQHdPEHXu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-14" value="gọi API lấy danh sách đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="220" y="430" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="hv37WCeCtudlQHdPEHXu-1" source="hv37WCeCtudlQHdPEHXu-16" target="hv37WCeCtudlQHdPEHXu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-16" value="gọi API lấy thông tin chi tiết đơn hàng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="260" y="720" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hv37WCeCtudlQHdPEHXu-17" value="OrderManagementScreen" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="hv37WCeCtudlQHdPEHXu-1">
+          <mxGeometry x="312" y="520" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
